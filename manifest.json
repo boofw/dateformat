@@ -1,0 +1,12 @@
+{
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "content.js" ],
+      "match_about_blank": true,
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   } ],
+   "manifest_version": 2,
+   "name": "dateformat",
+   "version": "0.1"
+}
